@@ -1,2 +1,2 @@
 #!/bin/bash
-puts("gcc $CFILE.c -o cisfun")
+gcc -E $CFILE -o cisfun
